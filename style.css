@@ -1,0 +1,44 @@
+/*.btn{*/
+/*    margin-top: 30px;*/
+
+/*}*/
+/*.test{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    margin-top: 200px;*/
+/*    margin-left: 600px;*/
+/*    border: 2px solid green;*/
+/*    border-radius: 50%;*/
+/*}*/
+.box{
+    height: 50px;
+   border: 2px dashed blue;
+    margin: 10px 0;
+}
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vh;
+}
+.game div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    margin: 5px;
+}
+
+
+@keyframes anim {
+    0%{
+        transform: rotate(0) translateX(0);
+    }
+    50%{
+        transform: rotate(12000000000deg) translateX(100px);
+    }
+    100%{
+        transform: rotate(0) translateX(0) ;
+    }
+
+}
